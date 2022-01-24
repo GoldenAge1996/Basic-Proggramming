@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+ height: 100vh;
+    justify-content: center;
+    align-items: center;
+background-color: lightblue;
+    margin: 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+
+    padding: 0 40px;
+   
+
+}
+.btn{
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.sec{
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background-color: rgb(116, 142, 151);
+align-items: center;
+justify-content: center;
+
+}
+.sec.show{
+    display: block;
+    z-index: 2;
+    opacity: 0.97;
+}
+
+.open{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 80vw;
+  height: 30vh;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.lines{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+
+}

@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    color: black;
+}
+
+h2{
+font-size: 6rem;
+margin: 0;
+}
+
+.contain{
+    margin-top: 30px;
+    
+}
+.plus{
+    margin-top: -5px;
+    
+}
+.btn{
+    padding: 5px 10px;
+    margin: 5px;
+    font-family: sans-serif;
+    border: solid 3px black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.good{
+    color: white;
+    background-color: black;
+}
+
+.increase{
+    display: block;
+    
+}

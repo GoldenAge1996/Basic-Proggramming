@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+}
+
+
+.head{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+   border: solid 3px blue;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
